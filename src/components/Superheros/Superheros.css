@@ -1,0 +1,17 @@
+.superheros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 15px;
+    
+  }
+
+  .seeLink {
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .seeLink:hover{
+    color: #f22c04;
+  }
